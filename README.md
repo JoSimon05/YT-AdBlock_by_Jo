@@ -1,1 +1,1 @@
-# <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/icons/logo.ico" width="32"/> AdBlock for YouTube (Chrome extension)
+# <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/icons/icon128.png" width="32"/> AdBlock for YouTube (Chrome extension)
