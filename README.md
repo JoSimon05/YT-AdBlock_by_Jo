@@ -14,9 +14,19 @@ If you already have another active AdBlock, I suggest you to disable it at least
 <br>
 
 ## Keyboard Shortcuts for YouTube player
-> For security reasons, you need to move the focus away from the video player to use keyboard shortcuts
+> For security reasons, you need to move the focus away from the video player to use keyboard shortcuts.
 
-- 
+- Space / K &nbsp; &#10230; &nbsp; play/pause
+- M &nbsp; &#10230; &nbsp; mute/unmute
+- C &nbsp; &#10230; &nbsp; toggle subtitles
+- F &nbsp; &#10230; &nbsp; toggle fullscreen
+- Arrow Up &nbsp; &#10230; &nbsp; volume up (+5)
+- Arrow Down &nbsp; &#10230; &nbsp; volume down (-5)
+- Arrow Right / L &nbsp; &#10230; &nbsp; forward (+5s)
+- Arrow Left / J &nbsp; &#10230; &nbsp; backward (-5s)
+- Shift + N &nbsp; &#10230; &nbsp; next video
+- Shift + P &nbsp; &#10230; &nbsp; previous video
+- *(WIP) &nbsp; 0 - 9 / Num 0 - Num 9 &nbsp; &#10230; &nbsp; jump to 0% - 90%*
 
 <br>
 
@@ -25,4 +35,4 @@ If you already have another active AdBlock, I suggest you to disable it at least
 - Video playback may stop when switching to Miniplayer mode (by pressing "i").
 - video player does not have the same function keys as the default one, but I've replicated the [main keyboard shortcuts](https://github.com/JoSimon05/YT-AdBlock_by_Jo/edit/Latest/README.md#keyboard-shortcuts-for-youtube-player)
 
-> For any other problem, please report it in Github [Issues](https://github.com/JoSimon05/YT-AdBlock_by_Jo/issues) section or in Chromw Web Store <!-- https://chromewebstore.google.com/detail/pkcgdemjlnnlkoebkfpcbiklgoddjpak/report -->
+> For any other problem or bug, please report them in [Issues](https://github.com/JoSimon05/YT-AdBlock_by_Jo/issues) section.
