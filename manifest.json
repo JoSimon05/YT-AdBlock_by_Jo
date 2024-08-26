@@ -1,11 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "AdBlock for YouTube (Preview)",
+    "name": "AdBlock for YouTube by Jo",
     "description": "Enjoy YouTube without interruptions!",
     "author": "Jo",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "permissions": [
         "activeTab",
+        "management",
         "storage",
         "tabs"
     ],

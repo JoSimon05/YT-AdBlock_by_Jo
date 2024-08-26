@@ -1,5 +1,11 @@
 
-let canShowLogs = false
+let canShowLogs
+
+// set stored environment type
+chrome.storage.sync.get("isDev", (data) => {
+    canShowLogs = data.isDev
+})
+
 
 let isAdBlockEnabled
 let isPopupToRemove = false  //TODO ...
@@ -8,6 +14,7 @@ let currentURL = window.location.href
 
 let newPlayerNeeded = true
 let newPlayer
+let currentTime
 
 let canReadKey = true
 
@@ -42,6 +49,7 @@ function blockAds() {
     if (window.location.href !== currentURL) {
         currentURL = window.location.href
         newPlayerNeeded = true
+        currentTime = 0
 
         removeOtherIframes(true) // remove all iframes
         hidePageAds()
@@ -168,11 +176,9 @@ function replicatePlayerCommands() {
 
                     if (isPlaying) {
                         postCommand("pauseVideo")
-                        log("Paused")
 
                     } else {
                         postCommand("playVideo")
-                        log("Playing")
                     }
 
                     isPlaying = !isPlaying
@@ -233,6 +239,7 @@ function replicatePlayerCommands() {
                     break
 
                 // video +5s
+                case "l":
                 case "ArrowRight":
                     postCommand("wakeUpControls")
 
@@ -241,11 +248,42 @@ function replicatePlayerCommands() {
                     break
 
                 // video -5s
+                case "j":
                 case "ArrowLeft":
                     postCommand("wakeUpControls")
 
                     postCommand("seekBy", -5)
                     log("Backward 5s")
+                    break
+
+                // next video
+                case "N":
+                    postCommand("nextVideo")
+                    break
+
+                // previous video
+                case "P":
+                    postCommand("previousVideo")
+                    break
+
+                // subtitles
+                case "c":
+                    postCommand("wakeUpControls")
+
+                    postCommand("toggleSubtitles")
+                    break
+
+
+                // prevent theater mode restart
+                case "t":
+
+                    if (newPlayer.src.includes("&start=")) {
+                        newPlayer.src = newPlayer.src.replace(/&start=\d+/, `&start=${currentTime}`)
+
+                    } else {
+                        newPlayer.src += `&start=${currentTime}`
+                    }
+
                     break
             }
 
@@ -260,7 +298,24 @@ function replicatePlayerCommands() {
 
         const data = JSON.parse(e.data)
 
-        if (data.event === "initialDelivery" || data.event === "infoDelivery") {
+        console.log(data)
+
+        if (data.event === "initialDelivery" || data.event === "infoDelivery" || data.event === "apiInfoDelivery") {
+
+            // get playback time
+            if (data.info.currentTime) {
+                currentTime = Math.trunc(data.info.currentTime)
+                //log(`${currentTime}s`)
+            }
+
+            // get playback status
+            if (data.info.playerState) {
+
+                if (data.info.playerState == 1) isPlaying = true
+                if (data.info.playerState == 2) isPlaying = false
+
+                log(isPlaying ? "Playing" : "Paused")
+            }
 
             // get muted status
             if (data.info.muted) {
@@ -417,22 +472,13 @@ function fixCommentsTimestamps() {
             e.preventDefault()
 
             const timestamp = target.href.split("&t=")[1].split("s")[0]
-            const playerElements = document.querySelectorAll(".html5-video-player")
 
-            playerElements.forEach(playerElement => {
+            if (newPlayer.src.includes("&start=")) {
+                newPlayer.src = newPlayer.src.replace(/&start=\d+/, `&start=${timestamp}`)
 
-                const iframes = playerElement.querySelectorAll("iframe")
-
-                iframes.forEach(iframe => {
-
-                    if (iframe.src.includes("&start=")) {
-                        iframe.src = iframe.src.replace(/&start=\d+/, `&start=${timestamp}`)
-
-                    } else {
-                        iframe.src += `&start=${timestamp}`
-                    }
-                })
-            })
+            } else {
+                newPlayer.src += `&start=${timestamp}`
+            }
         }
     })
 }
