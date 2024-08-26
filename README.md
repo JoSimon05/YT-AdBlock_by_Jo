@@ -36,3 +36,8 @@ If you already have another active AdBlock, I suggest you to disable it at least
 - video player does not have the same function keys as the default one, but I've replicated the [main keyboard shortcuts](https://github.com/JoSimon05/YT-AdBlock_by_Jo/edit/Latest/README.md#keyboard-shortcuts-for-youtube-player)
 
 > For any other problem or bug, please report them in [Issues](https://github.com/JoSimon05/YT-AdBlock_by_Jo/issues) section.
+
+<br>
+
+# Try my Extension!
+You can easily add **AdBlock for YouTube by Jo** from this link. <!-- AGGIORNA URL DOPO REVISIONE -->
