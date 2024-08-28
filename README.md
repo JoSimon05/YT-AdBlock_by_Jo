@@ -40,4 +40,4 @@ If you already have another active AdBlock, I suggest you to disable it at least
 <br>
 
 # Try my Extension!
-You can easily get **AdBlock for YouTube by Jo** from [this link](https://chromewebstore.google.com/detail/adblock-for-youtube-previ/pkcgdemjlnnlkoebkfpcbiklgoddjpak) <!-- AGGIORNA URL DOPO REVISIONE -->
+You can easily get **AdBlock for YouTube by Jo** from [this link](https://chromewebstore.google.com/detail/adblock-for-youtube-by-jo/pkcgdemjlnnlkoebkfpcbiklgoddjpak)
