@@ -8,7 +8,7 @@
 
 <br>
 
-## Let's prevent conflicts!
+## Prevent conflicts!
 If you already have another active AdBlock, I suggest you to disable it at least for the YouTube website. This will prevent both from conflicting and will allow my extension to offer you the best user experience!
 
 <br>
