@@ -14,7 +14,7 @@ If you already have another active AdBlock, I suggest you to disable it at least
 <br>
 
 ## Keyboard Shortcuts for YouTube player
-> For security reasons, you need to move the focus away from the video player to use keyboard shortcuts.
+> For security reasons, you need to move the focus away from the video player to use all keyboard shortcuts.
 
 - Space / K &nbsp; &#10230; &nbsp; play/pause
 - M &nbsp; &#10230; &nbsp; mute/unmute
