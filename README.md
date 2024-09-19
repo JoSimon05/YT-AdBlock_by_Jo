@@ -1,10 +1,10 @@
-# <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/.web_store/icon32-github.png"/> AdBlock for YouTube by Jo (Chrome Extension)
+# <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/images/icon32-github.png"/> AdBlock for YouTube by Jo (Chrome Extension)
 
 > **This Chrome Extension hides any kind of ads on YouTube web pages**
 
 <br>
 
-<img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/.web_store/adblock-off.png" width="48%"/> &nbsp; <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/.web_store/adblock-on.png" width="48%"/>
+<img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/images/adblock-off.png" width="48%"/> &nbsp; <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/images/adblock-on.png" width="48%"/>
 
 <br>
 
