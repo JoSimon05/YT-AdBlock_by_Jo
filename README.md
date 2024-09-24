@@ -14,28 +14,53 @@ If you already have another active AdBlock, I suggest you to disable it at least
 <br>
 
 ## Keyboard Shortcuts for YouTube player
-> For security reasons, you need to move the focus away from the video player to use all keyboard shortcuts.
+> To use ALL the following keyboard shortcuts you need to move the focus away from the video player (it shows a light-gray outline when it's focused).
 
-- Space / K &nbsp; &#10230; &nbsp; play/pause
-- M &nbsp; &#10230; &nbsp; mute/unmute
-- C &nbsp; &#10230; &nbsp; toggle subtitles
-- F &nbsp; &#10230; &nbsp; toggle fullscreen
-- Arrow Up &nbsp; &#10230; &nbsp; volume up (+5)
-- Arrow Down &nbsp; &#10230; &nbsp; volume down (-5)
-- Arrow Right / L &nbsp; &#10230; &nbsp; forward (+5s)
-- Arrow Left / J &nbsp; &#10230; &nbsp; backward (-5s)
-- Shift + N &nbsp; &#10230; &nbsp; next video
-- Shift + P &nbsp; &#10230; &nbsp; previous video
-- *(WIP) &nbsp; 0 - 9 / Num 0 - Num 9 &nbsp; &#10230; &nbsp; jump to 0% - 90%*
+- **Space** &nbsp;or&nbsp; **K** &nbsp; &#10230; &nbsp; play / pause
+
+- **C** &nbsp; &#10230; &nbsp; toggle subtitles
+
+- **M** &nbsp; &#10230; &nbsp; mute / unmute
+
+- **Arrow Up** &nbsp; &#10230; &nbsp; volume up ( +5% )
+
+- **Arrow Down** &nbsp; &#10230; &nbsp; volume down ( -5% )
+
+- **Arrow Right** &nbsp;or&nbsp; **L** &nbsp; &#10230; &nbsp; forward ( +5s )
+
+- **Arrow Left** &nbsp;or&nbsp; **J** &nbsp; &#10230; &nbsp; backward ( -5s )
+
+- **0 - 9** &nbsp;or&nbsp; **Num0 - Num9** &nbsp; &#10230; &nbsp; jump to 0% - 90%
+
+- **Shift + N** &nbsp; &#10230; &nbsp; next video
+
+- **Shift + P** &nbsp; &#10230; &nbsp; previous video
+
+- **T** &nbsp; &#10230; &nbsp; toggle theater mode
+
+- **F** &nbsp; &#10230; &nbsp; toggle fullscreen
+
+- **I** &nbsp; &#10230; &nbsp; toggle miniplayer
+
+- **Escape** &nbsp; &#10230; &nbsp; close miniplayer
+
+- **Enter** &nbsp; &#10230; &nbsp; show player controls
+
+<br>
+
+## Additional features
+- Ads between Shorts will be automatically skipped
+- Some buttons are disabled to limit bugs and unperformable actions*
 
 <br>
 
 ## Known issues
-- Ads between Shorts won't be hidden (but they can easily be skipped)
-- Video playback may stop when switching to Miniplayer mode (by pressing "i").
+- It's not possible to make clips*
+- Player may forget the current playing time and restart the video
 - Player does not have the same function keys as the default one, but I've replicated the [main keyboard shortcuts](https://github.com/JoSimon05/YT-AdBlock_by_Jo/edit/Latest/README.md#keyboard-shortcuts-for-youtube-player)
+- Sometimes pages may be a bit laggy
 
-> For any other problem or bug, please report them in [Issues](https://github.com/JoSimon05/YT-AdBlock_by_Jo/issues) section.
+For any other problem or bug, please report them in [Issues](https://github.com/JoSimon05/YT-AdBlock_by_Jo/issues) section.
 
 <br>
 
