@@ -57,6 +57,7 @@ If you already have another active AdBlock, I suggest you to disable it at least
 
 ## Known issues
 - It's not possible to make clips*
+- Tab selection is disabled ( WIP )
 - Player may forget the current playing time and restart the video
 - Player does not have the same function keys as the default one, but I've replicated the [main keyboard shortcuts](https://github.com/JoSimon05/YT-AdBlock_by_Jo/edit/Latest/README.md#keyboard-shortcuts-for-youtube-player)
 - Sometimes pages may be a bit laggy
