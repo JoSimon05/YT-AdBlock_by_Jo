@@ -14,7 +14,8 @@ If you already have another active AdBlock, I suggest you to disable it at least
 <br>
 
 ## Keyboard Shortcuts for YouTube player
-> To use ALL the following keyboard shortcuts you need to move the focus away from the video player (it shows a light-gray outline when it's focused).
+> To use ALL the following keyboard shortcuts you need to move the focus away from the video player. \
+> It shows a light-gray outline when it's focused.
 
 - **Space** &nbsp;or&nbsp; **K** &nbsp; &#10230; &nbsp; play / pause
 
