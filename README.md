@@ -55,7 +55,7 @@ If you already have another active AdBlock, I suggest you to disable it at least
 
 <br>
 
-## Known issues
+## Current known issues
 - It's not possible to make clips*
 - Tab selection is disabled ( WIP )
 - Player may forget the current playing time and restart the video
