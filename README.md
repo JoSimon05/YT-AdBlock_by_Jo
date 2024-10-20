@@ -1,4 +1,4 @@
-# <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/images/icon32-github.png"/> AdBlock for YouTube by Jo (Chrome Extension)
+# <img src="https://github.com/JoSimon05/YT-AdBlock/blob/Latest/images/icon32-github.png"/> YouTube AdBlock by Jo (Chrome Extension)
 
 > **This Chrome Extension hides any kind of ads on YouTube web pages**
 
@@ -52,6 +52,7 @@ If you already have another active AdBlock, I suggest you to disable it at least
 ## Additional features
 - Ads between Shorts will be automatically skipped
 - Some buttons are disabled to limit bugs and unperformable actions*
+- Video player automatically lose focus after 10 seconds
 
 <br>
 
